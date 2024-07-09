@@ -49,7 +49,7 @@ auto.click(x=1137, y=365)
 
 #passo 3 importar base de dados============================================================================================================================================
 
-tabela = pd.read_csv('JORNADA-PYTHON\PYTHON POWER UP\produtos.csv')
+tabela = pd.read_csv("produtos.csv")
 
 for linha in tabela.index:
     # Clicar no campo de código
